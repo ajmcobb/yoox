@@ -8,7 +8,7 @@
 
 import UIKit
 
-@UIApplicationMain
+//@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+
+        guard let navigationController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as? UINavigationController,
+            let viewController = navigationController.topViewController as? CatalogueViewController else { fatalError() }
+        let dependencies = Dependencies(networkLayer: NetworkLayer())
+        let viewModel = CatalogueViewModel(dependencies: dependencies)
+        viewController.viewModel = viewModel
+        window?.rootViewController = viewController.navigationController ?? viewController
         return true
     }
 

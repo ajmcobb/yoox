@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Yoox
+
+  Created by Aurelien Cobb on 07/09/2019.
+  Copyright © 2019 Aurelien Cobb. All rights reserved.
+*/
+
+"offline" = "Das Internet ist offline";
+"Parsing_Error" = "Fehler beim Parsing";
+"WrongURL_Error" = "Falsches URL";
+"StatusCode_Error" = "Antwortfehler mit code %d";
+"Something_Went_Wrong" = "Ups, etwas is schief gelaufen";
+"Catalogue" = "Katalog";

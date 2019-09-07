@@ -1,0 +1,47 @@
+{
+    "summaries": [{
+        "name": "Rives oversized knitted cardigan ",
+        "visible": true,
+        "saleableStandardSizeIds": ["00002_XXS_Clothing", "00003_XS_Clothing", "00004_S_Clothing", "00005_M_Clothing", "00006_L_Clothing"],
+        "price": {
+            "currency": "GBP",
+            "divisor": 100,
+            "amount": 40000
+        },
+        "leafCategoryIds": [6136, 6382, 27419],
+        "onSale": false,
+        "analyticsKey": "Rives oversized knitted cardigan ",
+        "id": 1161795,
+        "brandId": 404,
+        "colourIds": [8],
+        "images": {
+            "shots": ["in", "ou", "fr", "bk", "cu"],
+            "sizes": ["dl", "l", "m", "m2", "mt", "mt2", "pp", "s", "sl", "xl", "xs", "xxl"],
+            "mediaType": "image/jpeg",
+            "urlTemplate": "{{scheme}}//cache.net-a-porter.com/images/products/1161795/1161795_{{shot}}_{{size}}.jpg"
+        },
+        "badges": ["In_Stock"]
+    }, {
+        "name": "Open-back merino wool turtleneck sweater",
+        "visible": true,
+        "saleableStandardSizeIds": ["00003_XS_Clothing", "00004_S_Clothing", "00005_M_Clothing", "00006_L_Clothing"],
+        "price": {
+            "currency": "GBP",
+            "divisor": 100,
+            "amount": 91000
+        },
+        "leafCategoryIds": [6136, 6383, 27419, 14677],
+        "onSale": false,
+        "analyticsKey": "Open-back merino wool turtleneck sweater",
+        "id": 1176874,
+        "brandId": 2521,
+        "colourIds": [29],
+        "images": {
+            "shots": ["in", "ou", "fr", "bk", "cu"],
+            "sizes": ["dl", "l", "m", "m2", "mt", "mt2", "pp", "s", "sl", "xl", "xs", "xxl"],
+            "mediaType": "image/jpeg",
+            "urlTemplate": "{{scheme}}//cache.net-a-porter.com/images/products/1176874/1176874_{{shot}}_{{size}}.jpg"
+        },
+        "badges": ["In_Stock"]
+    }]
+}
